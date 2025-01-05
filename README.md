@@ -1,13 +1,13 @@
+---
+
 # Library Management System
 
-The **Library Management System** is a web application designed to help users manage their book collections efficiently. It allows users to add new books, view a list of books, edit book details, and delete books from the library. The application is built with HTML for structure, CSS for styling, and JavaScript for interactivity and data handling, providing a user-friendly interface.
+The **Library Management System** is a web application designed to help users search for books in a library. The application retrieves book data from a remote database, allowing users to search for books based on various criteria, such as title, author, or genre.
 
 ## Features
 
-- **Add New Books:** Users can easily add books to the library.
-- **View Book List:** Users can see a list of all books in the library.
-- **Edit Book Details:** Users can modify the details of any book in the library.
-- **Delete Books:** Users can delete books from the library collection.
+- **Search Books:** Users can search for books by title, author, or genre using an API to retrieve book data from a remote database.
+- **View Book List:** Users can see a list of books returned from the search results.
 
 ## Demo
 
@@ -21,19 +21,23 @@ You can view the live demo of the application [here](https://librarywebsite3.ccb
 
 - **HTML:** For the structure and layout of the web pages.
 - **CSS:** For styling and making the web pages visually appealing.
-- **JavaScript:** For interactivity and handling book data management.
+- **JavaScript:** For handling interactivity and making API calls to retrieve book data.
+- **API:** To interact with the remote database and fetch the book information.
 
 ## How to Run the Project
 
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in any web browser to view the application.
+2. Ensure that the necessary API endpoints for searching books are set up and accessible.
+3. Open the `index.html` file in any web browser to view the application.
 
 ## Future Improvements
 
-- **User Authentication:** Adding user login and registration to manage books privately.
-- **Database Integration:** Storing books in a database for persistent data management.
-- **Search and Filter:** Adding functionality to search and filter books by title, author, or genre.
+- **Advanced Search Filters:** Adding more advanced search filters such as publication date, language, or rating.
+- **User Authentication:** Allow users to save their favorite books by logging in.
+- **Responsive Design:** Make the application fully responsive for better accessibility on mobile devices.
 
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
